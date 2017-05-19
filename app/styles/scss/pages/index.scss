@@ -13,6 +13,10 @@
         background: $black-1;
         opacity: 0.8;
 
+        &.navbar-transparent {
+            background: transparent;
+        }
+
         .navbar-header {
             .navbar-brand {
                 font-size: 2em;
