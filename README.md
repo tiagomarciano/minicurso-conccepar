@@ -4,7 +4,7 @@ Congresso Científico da Região Centro-Ocidental do Paraná
 
 Minicurso: Desenvolvimento de layouts com bootstrap
 * Tiago Marciano | Analista de Sistemas Pleno (Faculdade Intgrado de Campo Mourão/PR)
-* Colaboradores: Alan Ferreira dos Santos, Luis Henrique Jurasseck
+* Colaboradores: [Alan Ferreira dos Santos](https://github.com/woodyalan), [Luis Henrique Jurasseck](https://github.com/jurasseck)
 
 Instruções
 ==========================
