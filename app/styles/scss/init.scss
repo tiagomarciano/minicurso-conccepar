@@ -1,0 +1,13 @@
+//misc settings
+@import 'config/_settings';
+@import 'config/_mixins';
+@import 'config/_variable';
+
+//frameworks
+
+//global things
+@import 'layout/_main';
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+
+//pages
+@import "pages/index";

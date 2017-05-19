@@ -1,0 +1,14 @@
+{
+    "name": "minicurso",
+    "description": "Description of your project",
+    "main": "app/scripts/app.js",
+    "license": "MIT",
+    "homepage": "",
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "jquery": "^3.2.1",
+        "animate.css": "^3.5.2",
+        "font-awesome": "^4.7.0",
+        "wow": "^1.1.2"
+    }
+}

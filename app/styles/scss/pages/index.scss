@@ -1,0 +1,222 @@
+
+#header {
+    background: url('/images/bg3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 800px;
+
+    #navigation {
+        width: 100%;
+        min-height: 80px;
+        background: $black-1;
+        opacity: 0.8;
+
+        .navbar-header {
+            .navbar-brand {
+                font-size: 2em;
+                font-size: $font-family;
+                font-weight: bold;
+                color: $white;
+                padding: 1.1em 0;
+                text-transform: uppercase;
+                @media screen and (max-width: $break-small) {
+                    margin-left: 15px;
+                }
+            }
+        }
+
+        #navbar{
+            .navbar-nav{
+                li {
+                    padding: 1em 0;
+                    a {
+                        color: $white;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-size: 1em;
+                        border-bottom: 1px solid transparent;
+                        &:hover, &:focus, &:active {
+                            border-bottom: 1px solid $white;
+                            background: transparent;
+                            @media screen and (max-width: $break-small) {
+                                border-bottom: 1px solid transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .welcome {
+        h1 {
+            color: $white;
+            font-weight: 100;
+            font-size: 4em;
+            padding: 5em 0 0 0;
+            text-transform: uppercase;
+        }
+    }
+    .actions{
+        padding: 4em 0 0 0;
+    }
+}
+
+#click-action {
+    background: $black-1;
+    min-height: 16em;
+    h2 {
+        color: $white;
+        padding: 1em 0 0.5em 0;
+        font-weight: 100;
+        font-size: 2.5em;
+    }
+    form {
+        padding: 2em 0 2.5em 0;
+    }
+}
+
+#about {
+    h2 {
+        font-weight: 100;
+        font-size: 3.5em;
+        padding: 1em 0 1em 0;
+        color: $black-1;
+    }
+    p {
+        line-height: 1.6;
+        font-size: 1.6em;
+        font-weight: 300;
+        color: $black-1;
+        padding: 0 0 1em 0;
+    }
+}
+
+#signit {
+    background: url('/images/banner-bg.jpg');
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 12em;
+    h2 {
+        font-weight: 100;
+        font-size: 3.5em;
+        padding: 1em 0 1em 0;
+        color: $white;
+    }
+    p {
+        line-height: 1;
+        font-size: 1.6em;
+        font-weight: 300;
+        color: $white;
+        padding: 0 0 1.5em 0;
+    }
+    .action {
+        margin: 1em 0 1.5em 0;
+    }
+}
+
+#prices {
+    background: $black-1;
+    padding: 0 0 2em;
+    h2 {
+        font-weight: 100;
+        font-size: 3.0em;
+        padding: 1em 0 1em 0;
+        color: $white;
+    }
+    .price-container {
+        border: 0px;
+        .price-header {
+            border-top-width: 10px;
+            border-top-style: solid;
+            &.silver {
+                border-top-color: $silver;
+            }
+            &.gold {
+                border-top-color: $gold;
+            }
+            &.royal {
+                border-top-color: $royal;
+            }
+
+        }
+        .price-body {
+            p {
+                strong {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+}
+
+#contact {
+    h2 {
+        font-weight: 100;
+        font-size: 3.5em;
+        padding: 1em 0 1em 0;
+        color: $black-1;
+    }
+    .input-custom {
+        border: 2px solid $black;
+    }
+    .btn-custom {
+        border: 2px solid $black;
+        color: $black;
+        margin: 1em 0;
+    }
+}
+
+#footer {
+    background: url("/images/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 10em;
+    h2 {
+        font-size: 2em;
+        font-family: $font-family;
+        font-weight: bold;
+        color: $white;
+        padding: 1em 0;
+        text-transform: uppercase;
+    }
+    p {
+        color: $white;
+    }
+    .social-list {
+        padding: 0;
+        list-style: none;
+        li {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid $white;
+            background: transparent;
+            margin: 1em 0 1em 0.8em;
+            display: inline-block;
+            i {
+                font-size: 1.8em;
+                padding: 0.4em;
+                color: $white;
+            }
+            &:hover, &:focus, &:active {
+                background: $white;
+                i {
+                    color: $black;
+                }
+            }
+        }
+    }
+    small {
+        color: $white;
+        display: block;
+        padding: 1.5em 0 1.5em 0;
+    }
+}

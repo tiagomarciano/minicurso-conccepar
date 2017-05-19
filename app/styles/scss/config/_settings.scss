@@ -1,0 +1,43 @@
+@import "_variable";
+
+.btn-custom {
+    background: transparent;
+    border: 2px solid $white;
+    padding: 20px;
+
+    &:hover, &:focus, &:active{
+        background: $black-1;
+        opacity: 0.5;
+        border: 2px solid $white;
+    }
+
+    &.white {
+        &:hover, &:focus, &:active {
+            background: $white;
+            opacity: 1;
+            color: $black;
+            border: 2px solid $black-1;
+        }
+    }
+}
+
+.input-custom {
+    background: transparent;
+    border: 2px solid $white;
+    padding: 30px;
+    &:focus, &:active {
+        background: $white;
+        color: $black;
+        border: 2px solid $black-1;
+        box-shadow: none;
+    }
+}
+
+.navbar-toggle {
+    border: 1px solid $white;
+    margin-top: 1.5em;
+}
+
+.icon-bar {
+    background-color: $white;
+}
